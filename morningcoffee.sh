@@ -5,7 +5,8 @@
 # like the first cup of coffee at work, just for your pc
 
 main () {
-	sudo apt update
+	echo "Good Morning! Here is your digital coffee."
+	sudo apt -qq update
 	sudo apt upgrade
 }
 
