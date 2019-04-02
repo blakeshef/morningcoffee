@@ -6,7 +6,10 @@
 
 main () {
 	echo "Good Morning! Here is your digital coffee."
+	# checks for updates
 	sudo apt -qq update
+
+	# update avaliable packages
 	sudo apt upgrade
 }
 
