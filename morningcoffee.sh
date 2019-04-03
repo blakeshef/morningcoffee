@@ -5,8 +5,11 @@
 # like the first cup of coffee at work, just for your pc
 
 main () {
-	printf "Good Morning! Here is your digital coffee.\n\n"
+  echo "Good Morning! Here is your digital coffee.\n\n"
+	# checks for updates
 	sudo apt -qq update
+
+	# update avaliable packages
 	askToUpgrade
 }
 
@@ -39,7 +42,6 @@ askToUpgrade () {
 			printf "\nI don't understand\n"
 		fi
 	done
-
 }
 
 main '$@'
